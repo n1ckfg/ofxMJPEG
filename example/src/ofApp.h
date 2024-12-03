@@ -21,6 +21,6 @@ class ofApp : public ofBaseApp {
 		void gotMessage(ofMessage msg);
 		
 	private:
-	
 		MJPEGClient mjpeg;
+		
 };

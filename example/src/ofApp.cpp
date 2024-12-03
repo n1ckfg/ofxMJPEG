@@ -3,19 +3,17 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 
-	mjpeg.connect("http://87.51.7.186/img/video.mjpeg");
+	mjpeg.connect("http://nfg-rpi-3-4.local:7111/ipvideo");
 	//client.connect("http://83.161.133.106/axis-cgi/mjpg/video.cgi?resolution=480x300&dummy=1300696302973");
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
 	mjpeg.grabFrame();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
 	mjpeg.draw(20, 20);
 }
 

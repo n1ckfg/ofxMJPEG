@@ -10,7 +10,7 @@
  *
  */
 
-#include "ofxThread.h";
+#include "ofxThread.h"
 
 typedef class MJPEGClient;
 
