@@ -1,1 +1,4 @@
-ofxMjpeg
+ofxMJPEG
+ofxThread
+ofxPoco
+
